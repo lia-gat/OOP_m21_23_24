@@ -52,7 +52,6 @@ class EuropeanDate:
     def format(self):
         return f"{str(self.day).zfill(2)}.{str(self.month).zfill(2)}.{self.year}"
 
-# Примеры использования
 american = AmericanDate(2000, 4, 10)
 european = EuropeanDate(2000, 4, 10)
 print(american.format())

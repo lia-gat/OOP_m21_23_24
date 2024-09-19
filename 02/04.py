@@ -42,11 +42,15 @@ for v in values:
 
 print(mins.result(), maxs.result(), '{:<05.3}'.format(average.result()))
 
+print()
+
 mins = MinStat()
 maxs = MaxStat()
 average = AverageStat()
 
 print(mins.result(), maxs.result(), average.result())
+
+print()
 
 values = [1, 0, 0]
 

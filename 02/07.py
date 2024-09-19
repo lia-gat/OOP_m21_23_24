@@ -60,6 +60,8 @@ for i in range(tab.n_rows()):
     print()
 print()
 
+print("********************") 
+
 tab = Table(2, 2)
 
 for i in range(tab.n_rows()):
@@ -93,6 +95,8 @@ for i in range(-1, tab.n_rows() + 1):
         print(tab.get_value(i, j), end=' ')
     print()
 print()
+
+print("********************") 
 
 tab = Table(1, 1)
 

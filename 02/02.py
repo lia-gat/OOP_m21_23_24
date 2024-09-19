@@ -36,7 +36,6 @@ class RightParagraph:
         for line in self.words:
             print(line.rjust(self.width))
 
-# Примеры использования
 lp = LeftParagraph(8)
 lp.add_word('abc')
 lp.add_word('defg')
